@@ -1,2 +1,71 @@
 <html>
+<head>
+  <title>Kermit - Tinder</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="name_header text-center">Kermit T. Frog</h1>
+    <h3 class="text-center"><span id="desc"></span></h3>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/62/Kermit_the_Frog.jpg" alt="Kermit Flexin" class="img-circle center-block">
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <h2 class="text-center">About Me</h2>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <p class="col-md-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique, sem quis faucibus gravida, mauris dui aliquam metus, et commodo eros sem sed nunc. Nullam sed purus orci. Quisque et sapien libero.
+      </p>
+      <p class="col-md-4">
+        Vestibulum vitae mi quam. Nam quis maximus odio. Nam accumsan elementum ligula, eget egestas mi accumsan vitae. Donec suscipit elit dui, vel dignissim tortor tristique ut. Nunc eget ultrices dolor.
+      </p>
+      <div class="col-md-2"></div>
+    </div>
+
+    <h2 class="text-center">My Insta</h2>
+    <div class="row" style="display:flex;align-items:center;">
+      <div class="col-md-4">
+        <img src="https://imgflip.com/s/meme/But-Thats-None-Of-My-Business.jpg" alt="Kermit Flexin" class="center-block img-responsive">
+      </div>
+      <div class="col-md-4">
+        <img src="https://s-media-cache-ak0.pinimg.com/originals/ff/fc/09/fffc09a78bf2fe569917dd4c33290232.jpg" alt="Kermit Flexin" class="center-block img-responsive" style="vertical-align:middle;">
+      </div>
+      <div class="col-md-4">
+        <img src="http://vignette1.wikia.nocookie.net/characters/images/9/98/Kermit-two1.jpg/revision/latest?cb=20130504163204" alt="Kermit Flexin" class="center-block img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <footer>
+    <div class="row">
+      <div class="col-lg-12">
+        <p style="text-align:center;">Made with &hearts; by the HackGT Team</p>
+      </div>
+    </div>
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="typed.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $("#desc").typed({
+        strings: ["I sip iced tea.", "That's none of my business.", "I'm an entrepreneur.", "Meme culture is the only culture.", "#AlternativeNews", "Lemme slide into the DMs."],
+        typeSpeed: 20,
+        loop: true
+      });
+    });
+  </script>
+</body>
 </html>
